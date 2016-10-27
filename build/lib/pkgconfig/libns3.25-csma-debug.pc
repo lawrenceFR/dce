@@ -1,0 +1,10 @@
+prefix=/home/lawrence/dce/build
+libdir=/home/lawrence/dce/build/lib
+includedir=/home/lawrence/dce/build/include/ns3.25
+
+Name: libns3-csma
+Description: ns-3 module ns3-csma
+Version: 3.25
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.25-csma-debug
+Cflags: -I${includedir}
+Requires: libns3.25-network-debug

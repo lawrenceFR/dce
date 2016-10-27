@@ -1,0 +1,2 @@
+interp.o: /home/lawrence/dce/source/elf-loader/interp.c \
+ /usr/include/stdc-predef.h
